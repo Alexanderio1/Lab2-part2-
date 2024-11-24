@@ -87,12 +87,12 @@ namespace Lab2_part2_
         public override void Print()
         {
             base.Print();
-            Console.WriteLine($"Звание: {rank}\nВыслуга{experience}");
+            Console.WriteLine($"Звание: {rank}\nВыслуга: {experience}");
         }
 
         public override string ToString()
         {
-            return $"{base.ToString()}\nЗвание: {rank}\nВыслуга{experience}";
+            return $"{base.ToString()}\nЗвание: {rank}\nВыслуга: {experience}";
         }
     }
 
